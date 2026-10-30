@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Ivanov I, group prpp2");
+        System.out.println("Polin A, group prpp2");
         TransportCard empty = new TransportCard();
         System.out.println("1) " + empty.getOwner() + " / " + empty.getBalance());
-        TransportCard a = new TransportCard("Ivanov", 300);
+        TransportCard a = new TransportCard("Polin", 300);
         System.out.println("2) " + a.getOwner() + " / " + a.getBalance());
         TransportCard bad = new TransportCard("Petrov", -50);
         System.out.println("3) " + bad.getOwner() + " / " + bad.getBalance());
